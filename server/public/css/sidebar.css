@@ -1,0 +1,14 @@
+.sidebar-layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+main {
+  background-color: rgba(254, 255, 202, 0.795);
+}
+
+side {
+  text-align: center;
+  align-content: center;
+  background-color: aliceblue;
+}
