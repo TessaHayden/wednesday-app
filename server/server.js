@@ -35,16 +35,16 @@ mongoose
   .catch((err) => console.error("Connection Error:", err));
 
 import indexRouter from "./routes/index.mjs";
-import usersRouter from "./routes/users.mjs";
-import productsRouter from "./routes/products.mjs";
-import projectsRouter from "./routes/projects.mjs";
-import meeRouter from "./routes/mee.mjs";
+// import usersRouter from "./routes/users.mjs";
+// import productsRouter from "./routes/products.mjs";
+// import projectsRouter from "./routes/projects.mjs";
+// import meeRouter from "./routes/mee.mjs";
 
 app.use("/", indexRouter);
-app.use("/products", productsRouter);
-app.use("/projects", projectsRouter);
-app.use("/users", usersRouter);
-app.use("/mee", meeRouter);
+// app.use("/products", productsRouter);
+// app.use("/projects", projectsRouter);
+// app.use("/users", usersRouter);
+// app.use("/mee", meeRouter);
 
 app.listen(PORT, () => {
   console.log(`The Wednesday App server is started at port ${PORT}`);
