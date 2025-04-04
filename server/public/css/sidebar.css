@@ -5,6 +5,8 @@
 
 main {
   background-color: rgba(254, 255, 202, 0.795);
+  text-align: center;
+  align-content: center;
 }
 
 side {

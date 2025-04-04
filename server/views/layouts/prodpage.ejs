@@ -6,20 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Wednesday App</title>
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/css/sidebar.css">
-  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+
 </head>
 
 <body>
-  <header>
+
     <%-include('../components/header')%>
-  </header>
+
     <div class="wrapper">
 
       <%-include('../components/sidebar')%>
   
     </div>
-    <%-include('../components/footer.ejs')%>
+    <%-include('../components/footer')%>
 </body>
 
 </html>

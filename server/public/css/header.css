@@ -4,6 +4,7 @@ header {
   padding: 1%;
   margin: 1rem;
 }
+
 li {
   display: inline-flex;
   font-size: large;
@@ -22,4 +23,8 @@ a {
   display: flex;
   width: 100vw;
   justify-content: center;
+}
+
+.header-ul li a{
+  font-size: 1.7rem;
 }

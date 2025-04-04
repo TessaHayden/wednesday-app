@@ -11,4 +11,11 @@ usersRouter.get("/", (req, res) => {
   });
 });
 
+usersRouter.route('/:signup')
+  .get((req, res) => {
+    res.render('signup', {title: "The Wednesday App", layout: './layouts/full-page'});
+})
+
+
+
 export default usersRouter;
